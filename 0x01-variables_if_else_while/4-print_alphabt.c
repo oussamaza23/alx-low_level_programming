@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints the alphabet in lowercase,
  * followed by a new line, except q and e
@@ -10,10 +11,10 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-	if (ch != 'e' && ch != 'q')
-	{	
-		putchar(ch);
-	}
+		if (ch != 'e' && ch != 'q')
+		{	
+			putchar(ch);
+		}
 	ch++;
 	}
 	putchar('\n');
