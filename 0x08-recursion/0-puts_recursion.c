@@ -1,14 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * @s: input
- *
- *_puts_recursion - function like puts();
- *
- *
- * Return: Always 0.
+ * _puts_recursion - print a string
+ * @s:string
+ * Return:void
  */
 void _puts_recursion(char *s)
 {
